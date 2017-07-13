@@ -1,0 +1,383 @@
+html,body,p,h2{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+.swiper-container{
+    width: 100%;
+    height:100%;
+    overflow:hidden;
+    background: #f5e3c5;
+
+}
+.swiper-wrapper{
+    width:100%;
+    height:100%;
+}
+.swiper-wrapper{
+    /*background: #d9c098;*/
+    position:relative;
+    background: #f5e3c5;
+}
+.swiper-slide .bg09{
+    width:100%;
+    height:100%;
+}
+.bg12{
+    position: absolute;
+    left:10vw;
+    top:12vh;
+    width:70vw;
+}
+.bg27{
+    position: absolute;
+    left:10vw;
+    bottom:15vw;
+    width:80vw;
+}
+.reunion{
+    position: absolute;
+    width: 60vw;
+    height: 4vh;
+    line-height: 4vh;
+    left:38vw;
+    top:26vh;
+    /*border:1px solid #ff0000;*/
+    overflow: hidden;
+    /*background: url("images/13.png") no-repeat;*/
+    /*background-size: contain;*/
+}
+.reunion img{
+    position: absolute;
+    width:100%;
+    height:100%;
+    /*z-index:1;*/
+}
+.reunion span{
+    position:absolute;
+    padding-left:3.5vw;
+    text-align:center;
+    font-size:5vw;
+    /*font-weight:bold;*/
+    color:#f4fe00;
+}
+.description{
+    width:100%;
+    position: absolute;
+    left:0;
+    top:56vw;
+}
+.description p{
+    width:100%;
+    line-height:10.5vw;
+    text-align:center;
+    font-size:5vw;
+}
+
+/*第二页*/
+.bg2n{
+    position:absolute;
+    left:10vw;
+    top:22vw;
+    width:26vw;
+}
+.bg2l{
+    position:absolute;
+    left:38vw;
+    top:25vw;
+    width:32vw;
+}
+.memory{
+    position:absolute;
+    left:10vw;
+    top:46vw;
+    width:50vw;
+    font-size:6vw;
+}
+.memory-desc{
+    position:absolute;
+    left:10vw;
+    top:56vw;
+    width:82vw;
+    line-height:6vw;
+    font-size:4vw;
+    text-indent:6vw;
+}
+.bg2m{
+    position: absolute;
+    left:24vw;
+    top:96vw;
+    width:52vw;
+}
+.bg32{
+    position: absolute;
+    left:28vw;
+    top:99vw;
+    width:44vw;
+}
+/*第三张图片*/
+.bg54{
+    position:absolute;
+    left: 14vw;
+    top: 26vw;
+    width:18vw;
+}
+.three-desc{
+    position:absolute;
+    right:9vw;
+    top:35vw;
+    width:52vw;
+    font-size:4vw;
+    text-indent:18vw;
+    line-height:7vw;
+}
+.bg52{
+    position:absolute;
+    left: 0;
+    top: 88vw;
+    width:100%;
+}
+.bg57{
+     position: absolute;
+     left:0vw;
+     top:109vw;
+     width:26vw;
+ }
+.bg7d{
+    position:absolute;
+    left:1vw;
+    top:114vw;
+    width:24vw;
+    /*animation:my1 1 linear 0s ;*/
+}
+/*@keyframes my1 {*/
+    /*form{transform: rotate(0);}*/
+    /*to{transform: rotate(90deg);}*/
+/*}*/
+.bg51{
+    position: absolute;
+    left:25vw;
+    top:109vw;
+    width:29vw;
+}
+.bg7f{
+    position:absolute;
+    left: 26vw;
+    top:118vw;
+    width:26vw;
+}
+.bg55{
+    position: absolute;
+    left:51vw;
+    top:106vw;
+    width:25vw;
+}
+.bg7d1{
+    position:absolute;
+    left: 53vw;
+    top:111vw;
+    width:24vw;
+}
+.bg56{
+    position: absolute;
+    left:75vw;
+    top:103vw;
+    width:32vw;
+}
+.bg7e{
+    position:absolute;
+    left: 77vw;
+    top:106vw;
+    width:29vw;
+}
+
+/*第四页*/
+.four-desc{
+    position: absolute;
+    left:8vw;
+    top:30vw;
+    width:26vw;
+    height: 96vw;
+    font-size: 4vw;
+    vertical-align: baseline;
+    letter-spacing: 2vw;
+    writing-mode:tb-rl;
+}
+.bg9k{
+    position: absolute;
+    left:36vw;
+    top:30vw;
+    width:16vw;
+}
+.bg9l{
+    display: block;
+    position: absolute;
+    left:56vw;
+    top: 42vw;
+    width: 38vw;
+    padding:1vw;
+    border:0.2vw solid #000000;
+}
+.bg9m{
+    display: block;
+      position: absolute;
+      left:56vw;
+      top: 72vw;
+      width: 38vw;
+    padding: 1vw;
+    border:0.2vw solid #000000;
+  }
+.bg7c{
+    display: block;
+      position: absolute;
+      left:56vw;
+      top: 102vw;
+      width: 38vw;
+    padding: 1vw;
+    border:0.2vw solid #000000;
+  }
+/*第五页*/
+.bg53{
+    position: absolute;
+    left:18vw;
+    top:14vw;
+    width:20vw;
+}
+.bgb0{
+    position: absolute;
+    left:10vw;
+    top:38vw;
+    width:18vw;
+}
+.five-desc{
+    position: absolute;
+    left:36vw;
+    top:50vw;
+    width:58vw;
+    font-size:4vw;
+    line-height:8vw;
+}
+.bg9l-1{
+    position: absolute;
+    left:8vw;
+    top:82vw;
+    width:40vw;
+    padding: 1vw;
+    border: 0.2vw solid #000000;
+}
+.bg9l-2{
+    position: absolute;
+    left:52vw;
+    top:82vw;
+    width:40vw;
+    padding: 1vw;
+    border: 0.2vw solid #000000;
+}
+.bg9l-3{
+    position: absolute;
+    left:8vw;
+    top:110vw;
+    width:40vw;
+    padding: 1vw;
+    border: 0.2vw solid #000000;
+}
+.bg9l-4{
+    position: absolute;
+    left:52vw;
+    top:110vw;
+    width:40vw;
+    padding: 1vw;
+    border: 0.2vw solid #000000;
+}
+/*第六页*/
+.bgbn{
+    position: absolute;
+    left:0vw;
+    bottom:30vw;
+    width:100vw;
+    z-index:2;
+}
+.bgbp{
+    position: absolute;
+    left:4vw;
+    bottom:6vw;
+    width:59vw;
+    z-index:3;
+}
+.bgbr{
+    position: absolute;
+    left:6vw;
+    top:26vw;
+    width:90vw;
+}
+.six-desc{
+    position:absolute;
+    left:10vw;
+    top:40vw;
+    font-size:5vw;
+    line-height:8vw;
+    text-indent:14vw;
+    width: 80vw;
+}
+.times{
+    position:absolute;
+    left:38vw;
+    top:66vw;
+    font-size:4vw;
+    line-height:4vw;
+    text-indent:4vw;
+}
+.address{
+    position:absolute;
+    left:38vw;
+    top:76vw;
+    font-size:4vw;
+    line-height:4vw;
+    text-indent:4vw;
+}
+.bgbo{
+    position: absolute;
+    right:-2vw;
+    bottom:-10vw;
+    z-index:4;
+    width:48vw;
+}
+
+/*背景音乐*/
+@keyframes mymove{
+    0%{transform: rotate(0deg);}
+    25%{transform: rotate(90deg);}
+    50%{transform: rotate(180deg);}
+    75%{transform: rotate(270deg);}
+    100%{transform: rotate(360deg);}
+}
+.mp3{
+    position: fixed;
+    top: 4vw;
+    right:4vw;
+    width:8vw;
+    height:8vw;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    border:0.5vw solid #fff;
+    background: #4e4949;
+    /*opacity: 0.5;*/
+    z-index:9999;
+    /*transition: all 1s;*/
+
+}
+.move{
+    animation:mymove 2s linear 0s infinite;
+}
+.pause{
+    animation-play-state: paused;
+}
+.mp3 span{
+    color:#fff;
+    font-size:9vw;
+}
+
