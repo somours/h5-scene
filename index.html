@@ -6,18 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="renderer" content="webkit">
     <title>Title</title>
-    <link rel="stylesheet" href="swiper/animate.min.css">
-    <link rel="stylesheet" href="swiper/swiper.min.css">
-    <link rel="stylesheet" href="iconfont2/iconfont.css">
-    <link rel="stylesheet" href="youth.css">
-    <script src="swiper/swiper.animate1.0.2.min.js"></script>
-    <script src="swiper/swiper.min.js"></script>
+    <link rel="stylesheet" href="./swiper/animate.min.css">
+    <link rel="stylesheet" href="./swiper/swiper.min.css">
+    <link rel="stylesheet" href="./iconfont2/iconfont.css">
+    <link rel="stylesheet" href="./youth.css">
+    <script src="./swiper/swiper.animate1.0.2.min.js"></script>
+    <script src="./swiper/swiper.min.js"></script>
 </head>
 <body>
 <div class="swiper-container">
     <div class="mp3 move">
         <span class="iconfont icon-yinle"></span>
-        <audio src="images/yinyue.mp3" loop autoplay id="music"></audio>
+        <audio src="./images/yinyue.mp3" loop autoplay id="music"></audio>
     </div>
     <div class="swiper-wrapper">
         <div class="swiper-slide">
@@ -113,6 +113,7 @@
     </div>
 </div>
 <script>
+  window.onload = function () {
     var mySwiper = new Swiper('.swiper-container', {
         loop: true,
 //        autoplay: 10000,//可选选项，自动滑动
@@ -127,6 +128,7 @@
     })
     var mp3 = document.querySelector(".mp3")
     var music = document.getElementById("music");
+    mp3.className = "mp3 move";
 //    console.log(mp3.play());
     var flag = 1;
     mp3.addEventListener("click",function(){
@@ -141,6 +143,7 @@
             // mp3.style.animation = "none";
         }
     })
+  }
 </script>
 </body>
 </html>
